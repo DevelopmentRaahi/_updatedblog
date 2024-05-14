@@ -238,6 +238,7 @@ h1 h2 h3 h4 h5 h6{
     text-decoration: none;
     margin-right: 10px;
     font-weight: 500;
+    box-shadow: 0 0 0.1rem #00000067;
 }
 .logo-content ul li a:hover{
     color: blueviolet;
@@ -271,6 +272,9 @@ display: none;
 }
 .dropdown-menu{
   width: auto;
+}
+.dropdown-menu a{
+  margin-left: 0rem;
 }
 
 .dropdown-menu a{
